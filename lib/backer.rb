@@ -10,4 +10,6 @@ class Backer
         ProjectBacker.new(project, self)
     end
 
+    def backed_projects
+        Project.select { |project| project.projects == self
 end

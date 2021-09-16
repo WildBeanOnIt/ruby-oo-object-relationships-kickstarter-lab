@@ -4,7 +4,7 @@ class ProjectBacker
 
     @@all = []
 
-    def initialize(project, backer)
+    def initialize(backer, project)
         @project = project
         @backer = backer
         @@all << self
